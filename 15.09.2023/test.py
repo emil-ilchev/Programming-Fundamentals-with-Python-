@@ -1,2 +1,2 @@
-name = "abcdef"
-print(name[::-1-1])
+name = "abcdefghijklmnopqrstuvwxyz"
+print(name[::-1])
