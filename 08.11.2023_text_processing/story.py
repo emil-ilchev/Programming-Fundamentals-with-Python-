@@ -10,7 +10,6 @@ while True:
 print(words)
 
 
-
 word = ""
 words = ""
 while True:
