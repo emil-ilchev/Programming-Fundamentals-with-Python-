@@ -10,7 +10,6 @@ while True:
 print(words)
 
 
-
 word = ""
 words = ""
 while True:
@@ -20,3 +19,24 @@ while True:
     else:
         break
 print(words)
+
+
+word = ""
+words = ""
+while True:
+    words += word + " "
+    word = input()
+    if word == "end":
+        break
+print(words)
+
+
+words = ""
+while True:
+    word = input()
+    words += word + " "
+    if word == "end":
+        break
+print(words)
+
+
