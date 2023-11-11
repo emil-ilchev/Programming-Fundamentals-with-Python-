@@ -1,38 +1,30 @@
-# word = ""
-# words = ""
-# while True:
-#     if word != "end":
-#         words += word + " "
-#         word = input("Please type in a word:")
-#     else:
-#         break
-# print(words)
-#
+word = ""
+words = ""
+while True:
+    if word != "end":
+        words += word + " "
+        word = input("Please type in a word:")
+    else:
+        break
+print(words)
+
 
 # word = ""
-# words = ""
+# list_of_words = ""
 # while True:
-#     if word != "end":
-#         word = input("Please type in a word:")
-#         words += word + " "
-#     else:
+#     same_words = word
+#     list_of_words += word + " "
+#     word = input()
+#     if same_words == word or word == "end":
 #         break
-# print(words)
-#
-#
+# print(list_of_words)
+
+
 # word = ""
-# words = ""
+# list_of_words = ""
 # while True:
-#     words += word + " "
+#     list_of_words += word + " "
 #     word = input()
 #     if word == "end":
 #         break
-# print(words)
-
-# words = ""
-# while True:
-#     word = input()
-#     words += word + " "
-#     if word == "end":
-#         break
-# print(words)
+# print(list_of_words)
