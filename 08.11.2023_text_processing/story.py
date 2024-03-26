@@ -1,3 +1,4 @@
+
 word = ""
 words = ""
 while True:
