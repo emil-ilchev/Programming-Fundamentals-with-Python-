@@ -10,6 +10,7 @@ while True:
 print(words)
 
 
+
 # word = ""
 # list_of_words = ""
 # while True:
