@@ -10,7 +10,7 @@ class Storage:
             self.capacity -= 1
 
     def get_products(self):
-        return self.storage
+        return Storage.storage
 
 
 storage = Storage(4)
