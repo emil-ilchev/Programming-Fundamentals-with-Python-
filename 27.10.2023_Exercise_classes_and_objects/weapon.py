@@ -4,7 +4,7 @@ class Weapon:
         self.bullets = bullets
 
     def shoot(self):
-
+        return
 
 weapon = Weapon(5)
 print(weapon.shoot())
