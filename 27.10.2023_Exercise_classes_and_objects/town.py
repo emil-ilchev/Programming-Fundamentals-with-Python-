@@ -14,7 +14,6 @@ class Town:
     def __repr__(self):
         return f"Town: {self.name} | Latitude: {self.latitude} | Longitude: {self.longitude}"
 
-
 town = Town("Sofia")
 town1 = Town("Kiova")
 town2 = Town("Oslo")
