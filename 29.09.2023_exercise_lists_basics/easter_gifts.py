@@ -1,9 +1,10 @@
-name_of_gifts = input().split()
+gifts = input().split()
 
 while True:
-    command = input()
-    command.pop(0)
-    # if command == "OutOfStock":
-    #     pass
-    print(command)
-    command = input()
+    line = input()
+    if line == "No Money":
+        break
+    command_arg = line.split()
+    command = command_arg[0]
+    if command == "OutOfStock":
+        pass

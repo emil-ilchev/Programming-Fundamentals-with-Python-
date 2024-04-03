@@ -6,7 +6,6 @@ for num in range(1, count + 1):
 print(result)
 
 
-
 # factor = int(input())
 # count = int(input())
 # result = []
@@ -20,9 +19,16 @@ print(result)
 # factor = int(input())
 # count = int(input())
 # result = []
-# for num in range(factor, factor * count + 1, factor):
-#     result.append(num)
+# for i in range(factor, factor * count + 1, factor):
+#     result.append(i)
+# print(result)
+
+# factor = int(input())
+# count = int(input())
+# result = [x for x in range(factor, factor * count + 1, factor)]
 # print(result)
 
 
-
+# factor = int(input())
+# count = int(input())
+# print(list(range(factor, factor * count + 1, factor)))
