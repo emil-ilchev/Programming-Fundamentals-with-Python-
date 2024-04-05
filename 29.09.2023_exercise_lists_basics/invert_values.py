@@ -7,8 +7,6 @@
 
 
 
-
-
 inpit_as_string = input()
 numbers = [-int(num) for num in inpit_as_string.split()]
 print(numbers)
