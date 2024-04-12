@@ -56,12 +56,27 @@
 # my_second_list.remove(2)
 # print(my_list)
 # print(my_second_list)
-
+#
 # my_list = [1, 2, 3, 4, 5]
 # my_second_list = my_list.copy()
 # my_second_list.remove(2)
 # print(my_list)
 # print(my_second_list)
 
+# my_list = ["1", "2", "3", "4", "5"]
+# my_list.remove("1")
+# print(my_list)
 
+# text = list(input())
+# stack = []
+# for i in range(len(text)):
+#     stack.append(text.pop())
+# print("".join(stack))
 
+# text = list(input())
+# while text:
+#     removed_elements = text.pop()
+#     print(removed_elements, end="")
+
+# text = input()
+# print(text[::-1])
