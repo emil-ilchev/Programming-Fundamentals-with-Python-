@@ -16,3 +16,23 @@ print(result)
 # count = int(input())
 # result = [el * factor for el in range(1, count + 1)]
 # print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
