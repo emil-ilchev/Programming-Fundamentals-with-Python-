@@ -56,7 +56,7 @@
 # my_second_list.remove(2)
 # print(my_list)
 # print(my_second_list)
-#
+# #
 # my_list = [1, 2, 3, 4, 5]
 # my_second_list = my_list.copy()
 # my_second_list.remove(2)
