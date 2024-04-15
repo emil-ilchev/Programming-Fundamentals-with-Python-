@@ -7,5 +7,5 @@ for num in string_of_integer:
 for idx in range(len(numbers)):
     beggar_idx = idx % count_of_beggars
     sums[beggar_idx] += numbers[idx]
+    # print(idx, beggar_idx, numbers[idx])
 print(sums)
-
