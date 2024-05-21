@@ -4,9 +4,17 @@
 #     current_number = -int(element)
 #     opposite_list.append(current_number)
 # print(opposite_list)
-
-
-
+#
+#
+#
 inpit_as_string = input()
 numbers = [-int(num) for num in inpit_as_string.split()]
 print(numbers)
+
+
+
+# inpit_as_string = input().split()
+# opposite_list = []
+# for element in inpit_as_string:
+#     opposite_list.append(int(element) * -1)
+# print(opposite_list)
