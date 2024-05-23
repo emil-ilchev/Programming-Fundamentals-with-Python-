@@ -1,4 +1,3 @@
-
 team_a = ['A-1', 'A-2', 'A-3', 'A-4', 'A-5', 'A-6', 'A-7', 'A-8', 'A-9', 'A-10', 'A-11']
 team_b = ['B-1', 'B-2', 'B-3', 'B-4', 'B-5', 'B-6', 'B-7', 'B-8', 'B-9', 'B-10', 'B-11']
 
@@ -19,4 +18,13 @@ if game_was_terminated:
 
 
 # team_a = ["A-"+str(x) for x in range(1, 12)]
+# print(team_a)
+
+
+# print(list("A-"+str(x)for x in range(1, 12)))
+
+# team = []
+# for i in range(1, 12):
+#     result = f"B-{i}"
+#     team_a.append(result)
 # print(team_a)
