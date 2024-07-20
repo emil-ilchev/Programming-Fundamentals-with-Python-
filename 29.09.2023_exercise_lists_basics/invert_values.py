@@ -7,10 +7,9 @@
 #
 #
 #
-inpit_as_string = input()
-numbers = [-int(num) for num in inpit_as_string.split()]
+input_as_str = input()
+numbers = [-int(num) for num in input_as_str.split()]
 print(numbers)
-
 
 
 # inpit_as_string = input().split()
