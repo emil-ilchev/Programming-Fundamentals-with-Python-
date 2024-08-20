@@ -1,8 +1,5 @@
-def repeat(word, n):
-    return word * n
-
-
-text = input()
-num = int(input())
-result = repeat(text, num)
+repeat = lambda a, b: a * b
+string = input()
+counter = int(input())
+result = repeat(string, counter)
 print(result)
