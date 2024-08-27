@@ -24,6 +24,33 @@ def password_validator():
 
 password_validator()
 
+
+# def validate_password(password):
+#     errors = []
+#
+#     if not (6 <= len(password) <= 10):
+#         errors.append("Password must be between 6 and 10 characters")
+#
+#     if not password.isalnum():
+#         errors.append("Password must consist only of letters and digits")
+#
+#     digit_count = sum(char.isdigit() for char in password)
+#     if digit_count < 2:
+#         errors.append("Password must have at least 2 digits")
+#
+#     if errors:
+#         for error in errors:
+#             print(error)
+#     else:
+#         print("Password is valid")
+#
+#
+# password = input()
+#
+# validate_password(password)
+
+
+
 # def password_validator():
 #     password = input()
 #     letters_list = []
