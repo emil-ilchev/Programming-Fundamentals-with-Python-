@@ -1,5 +1,5 @@
-def password_validator():
-    password = input()
+def password_validator(password):
+
     letters_count = 0
     digits_count = 0
     symbol_count = 0
@@ -22,7 +22,8 @@ def password_validator():
         print("Password is valid")
 
 
-password_validator()
+user_pass = input()
+password_validator(user_pass)
 
 
 # def validate_password(password):
