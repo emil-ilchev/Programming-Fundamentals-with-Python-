@@ -35,3 +35,14 @@ y4 = float(input())
 
 result = longer_line(x1, y1, x2, y2, x3, y3, x4, y4)
 print(result)
+
+def get_counter(n):
+    counter = 0
+    for i in range(n):
+        for j in range(n):
+            counter += 1
+    return counter
+
+
+count = int(input())
+print(get_counter(count))
