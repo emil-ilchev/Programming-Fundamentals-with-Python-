@@ -1,13 +1,11 @@
-def pilandrome():
-    # palindrome_list = input()
-    # palindrome = input()
+def palindrome():
     result = []
     number = 0
     for word in palindrome_list.split():
         if word == word[::-1]:
             result.append(word)
 
-        if word == palindrome:
+        if word == palindrome_word:
             number += 1
 
     print(result)
@@ -15,6 +13,6 @@ def pilandrome():
 
 
 palindrome_list = input()
-palindrome = input()
+palindrome_word = input()
 
-pilandrome()
+palindrome()
