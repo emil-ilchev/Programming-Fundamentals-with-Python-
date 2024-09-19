@@ -3,7 +3,7 @@ MAX_HEALTH = 100
 health = 100
 bitcoins = 0
 
-for index,room in enumerate(rooms, start=1):
+for index, room in enumerate(rooms, start=1):
     command, amount = room.split()
     amount = int(amount)
     if command == "potion":
