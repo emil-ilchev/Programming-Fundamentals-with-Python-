@@ -33,7 +33,7 @@ def fetch_and_control():
             timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
 
             # Записване на цената в текстов файл
-            with open("C:\\Users\\emili\\OneDrive\\Desktop\\price.txt", 'a', encoding='utf-8') as file:
+            with open("C:\\Users\\emili\\Desktop\\price.txt", 'a', encoding='utf-8') as file:
                 file.write(f'{timestamp} - {current_price} цента\n')
 
             # Управление на ESP32/ESP8266
