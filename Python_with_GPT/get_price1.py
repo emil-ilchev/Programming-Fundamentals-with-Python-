@@ -30,7 +30,7 @@ def fetch_and_save_price():
             timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
 
             # Записване на датата, часа и текущата цена в текстов файл
-            with open("C:\\Users\\emili\\OneDrive\\Desktop\\price.txt", 'a', encoding='utf-8') as file:
+            with open("C:\\Users\\emili\\Desktop\\price.txt", 'a', encoding='utf-8') as file:
                 file.write(f'{timestamp} - {current_price}\n')
                 print("Цената беше записана")
         else:
